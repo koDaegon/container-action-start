@@ -8,7 +8,7 @@ inputs:
     required: true
 outputs:
   time: # id of output
-  description: 'the time we greeted you'
+    description: 'the time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
